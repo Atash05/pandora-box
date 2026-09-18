@@ -5,7 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#fff5fa">
         <meta name="csrf-token" content="{{ csrf_token() }}">
-        <title>A Small Question</title>
+        <link rel="icon" type="image/svg+xml" href="{{ asset('pandora-box.svg') }}">
+        <title>Pandora’s Box</title>
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
     <body>
